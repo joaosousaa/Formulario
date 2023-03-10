@@ -1,10 +1,24 @@
-.container{
+.container {
     max-width: 98%;
 
 }
-input{
+
+input {
     height: 30px;
 }
+
+.cFlex {
+    display: flex;
+}
+
+.inputSmall {
+    max-width: 4em;
+}
+
+.ml--3em {
+    margin-left: -3em;
+}
+
 form {
     margin-top: 50px;
     margin: auto;
@@ -12,15 +26,18 @@ form {
     border: 2px solid black;
     display: block;
 }
-.col-sm-1{
+
+.col-sm-1 {
     width: 200px;
 }
+
 /*tirulos principais*/
 h1 {
-    
+
     font-size: 20px;
 }
-#titulo{
+
+#titulo {
     text-align: center;
     width: 600px;
     margin: auto;
@@ -38,6 +55,7 @@ h3 {
     font-size: 15px;
 
 }
+
 p {
     width: 300px;
     font-size: 12px;
@@ -47,7 +65,7 @@ p {
 
 /*bordas de algumas divs*/
 
-.borda{
+.borda {
     margin: auto;
     width: 99.5%;
     height: 100%;
@@ -55,16 +73,18 @@ p {
     border: 2px solid rgb(0, 0, 0);
     display: block;
 }
-input{
+
+input {
     font-size: 14px;
 }
+
 .borda2 {
     margin: auto;
     width: 99.5%;
     margin-bottom: 10px;
     border: 2px solid black;
     display: block;
-    
+
 }
 
 .borda3 {
@@ -80,7 +100,7 @@ input{
 label {
 
 
-    
+
     border-bottom: none;
     display: block;
     font-size: 12px;
@@ -88,6 +108,7 @@ label {
 
 
 }
+
 /*algumas divs que ficaram sem bordas*/
 
 
@@ -101,10 +122,11 @@ label {
 
 }
 
-.i1{
+.i1 {
     margin-left: 5px;
     max-width: 400px;
 }
+
 .i2 {
     margin-left: 5px;
     width: 300px;
@@ -112,7 +134,7 @@ label {
 
 .i3 {
     margin-bottom: 3px;
-margin-left: 5px;
+    margin-left: 5px;
     width: 170px;
 }
 
@@ -133,6 +155,7 @@ margin-left: 5px;
     margin-left: 5px;
     width: 350px;
 }
+
 .i7 {
     margin-bottom: 3px;
     margin-left: 5px;
@@ -190,7 +213,7 @@ margin-left: 5px;
 }
 
 .i15 {
-    
+
     margin-bottom: 3px;
     margin-left: 5px;
     max-width: 200px;
@@ -251,7 +274,7 @@ margin-left: 5px;
 }
 
 .i24 {
-    
+
     margin-top: 8px;
     margin-left: 5px;
     width: 100px;
@@ -259,7 +282,7 @@ margin-left: 5px;
 
 
 .i25 {
-    
+
     margin-top: 8px;
     margin-left: 5px;
     width: 310px;
@@ -286,7 +309,7 @@ margin-left: 5px;
 }
 
 .i29 {
-    
+
     margin-top: 8px;
     margin-left: 5px;
     width: 100px;
@@ -703,482 +726,568 @@ margin-left: 5px;
 }
 
 .i91 {
-    margin-bottom: 3px;  margin-bottom: 3px;
+    margin-bottom: 3px;
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-right: 20px;
     margin-left: 20px;
     width: 130px;
 }
 
-.i92 {  margin-bottom: 3px;
+.i92 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 5px;
     width: 150px;
 }
 
-.i93 {  margin-bottom: 3px;
+.i93 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 5px;
     width: 130px;
 }
 
-.i94 {  margin-bottom: 3px;
+.i94 {
+    margin-bottom: 3px;
     margin-top: 5px;
     font-size: 15px;
     width: 100px;
 }
 
-.i95 {  margin-bottom: 3px;
+.i95 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 5px;
     width: 100px;
     margin-right: 5px;
 }
 
-.i96 {  margin-bottom: 3px;
+.i96 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 5px;
     font-size: 15px;
     width: 100px;
 }
 
-.i97 {  margin-bottom: 3px;
+.i97 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-right: 15px;
     margin-left: 15px;
     width: 70px;
 }
 
-.i98 {  margin-bottom: 3px;
+.i98 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 5px;
     width: 220px;
 }
 
-.i99 {  margin-bottom: 3px;
+.i99 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 5px;
     width: 460px;
 }
 
-.i100 {  margin-bottom: 3px;
+.i100 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 5px;
     width: 60px;
 }
 
-.i101 {  margin-bottom: 3px;
+.i101 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 15px;
     width: 50px;
 }
 
-.i102 {  margin-bottom: 3px;
+.i102 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-right: 15px;
     margin-left: 15px;
     width: 50px;
 }
 
-.i103 {  margin-bottom: 3px;
+.i103 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-right: 20px;
     margin-left: 20px;
     width: 130px;
 }
 
-.i104 {  margin-bottom: 3px;
+.i104 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 5px;
     width: 150px;
 }
 
-.i105 {  margin-bottom: 3px;
+.i105 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 5px;
     width: 130px;
 }
 
-.i106 {  margin-bottom: 3px;
+.i106 {
+    margin-bottom: 3px;
     margin-top: 5px;
     font-size: 15px;
     width: 100px;
 }
 
-.i107 {  margin-bottom: 3px;
+.i107 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 5px;
     width: 100px;
     margin-right: 5px;
 }
 
-.i108 {  margin-bottom: 3px;
+.i108 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 5px;
     font-size: 15px;
     width: 100px;
 }
 
-.i109 {  margin-bottom: 3px;
+.i109 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-right: 15px;
     margin-left: 15px;
     width: 70px;
 }
 
-.i110 {  margin-bottom: 3px;
+.i110 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 5px;
     width: 220px;
 }
 
-.i111 {  margin-bottom: 3px;
+.i111 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 5px;
     width: 460px;
 }
 
-.i112 {  margin-bottom: 3px;
+.i112 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 5px;
     width: 60px;
 }
 
-.i113 {  margin-bottom: 3px;
+.i113 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 15px;
     width: 50px;
 }
 
-.i114 {  margin-bottom: 3px;
+.i114 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-right: 15px;
     margin-left: 15px;
     width: 50px;
 }
 
-.i115 {  margin-bottom: 3px;
+.i115 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-right: 20px;
     margin-left: 20px;
     width: 130px;
 }
 
-.i116 {  margin-bottom: 3px;
+.i116 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 5px;
     width: 150px;
 }
 
-.i117 {  margin-bottom: 3px;
+.i117 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 5px;
     width: 130px;
 }
 
-.i118 {  margin-bottom: 3px;
+.i118 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 10px;
     width: 50px;
 }
 
-.i119 {  margin-bottom: 3px;
+.i119 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 17px;
     width: 50px;
 }
 
-.is {  margin-bottom: 3px;
+.is {
+    margin-bottom: 3px;
     width: 100px;
 }
 
-.i120 {  margin-bottom: 3px;
+.i120 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 5px;
     width: 280px;
 }
 
-.i121 {  margin-bottom: 3px;
+.i121 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 5px;
     width: 500px;
 }
 
-.i122 {  margin-bottom: 3px;
+.i122 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 80px;
     width: 50px;
 }
-  
-.iss {  margin-bottom: 3px;
+
+.iss {
+    margin-bottom: 3px;
     width: 200px;
     text-align: center;
 }
 
-.i123 {  margin-bottom: 3px;
+.i123 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 5px;
     width: 300px;
 }
 
-.i124 {  margin-bottom: 3px;
+.i124 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 10px;
     width: 50px;
 }
 
-.i125 {  margin-bottom: 3px;
+.i125 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 20px;
     width: 130px;
 }
-.i126 {  margin-bottom: 3px;
+
+.i126 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 10px;
     width: 50px;
 }
 
-.i127 {  margin-bottom: 3px;
+.i127 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 56px;
     width: 50px;
 }
 
-.i128 {  margin-bottom: 3px;
+.i128 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 40px;
     width: 280px;
 }
 
-.i129 {  margin-bottom: 3px;
+.i129 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 5px;
     width: 500px;
 }
 
-.i130 {  margin-bottom: 3px;
+.i130 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 80px;
     width: 50px;
 }
 
-.i131 {  margin-bottom: 3px;
+.i131 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 75px;
     width: 300px;
 }
 
-.i132 {  margin-bottom: 3px;
+.i132 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 10px;
     width: 50px;
 }
 
-.i133 {  margin-bottom: 3px;
+.i133 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 20px;
     width: 130px;
 }
-.i134 {  margin-bottom: 3px;
+
+.i134 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 10px;
     width: 50px;
 }
 
-.i135 {  margin-bottom: 3px;
+.i135 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 56px;
     width: 50px;
 }
 
-.i136 {  margin-bottom: 3px;
+.i136 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 40px;
     width: 280px;
 }
 
-.i137 {  margin-bottom: 3px;
+.i137 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 5px;
     width: 500px;
 }
 
-.i138 {  margin-bottom: 3px;
+.i138 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 80px;
     width: 50px;
 }
 
-.i139 {  margin-bottom: 3px;
+.i139 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 75px;
     width: 300px;
 }
 
-.i140 {  margin-bottom: 3px;
+.i140 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 10px;
     width: 50px;
 }
 
-.i141 {  margin-bottom: 3px;
+.i141 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 20px;
     width: 130px;
 }
 
-.i142 {  margin-bottom: 3px;  margin-bottom: 3px;
+.i142 {
+    margin-bottom: 3px;
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 10px;
     width: 50px;
 }
 
-.i143 {  margin-bottom: 3px;  margin-bottom: 3px;
+.i143 {
+    margin-bottom: 3px;
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 56px;
     width: 50px;
 }
 
-.i144 {  margin-bottom: 3px;  margin-bottom: 3px;
+.i144 {
+    margin-bottom: 3px;
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 40px;
     width: 280px;
 }
 
-.i145 {  margin-bottom: 3px;
+.i145 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 5px;
     width: 500px;
 }
 
-.i146 {  margin-bottom: 3px;
+.i146 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 80px;
     width: 50px;
 }
 
-.i147 {  margin-bottom: 3px;
+.i147 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 75px;
     width: 300px;
 }
 
-.i148 {  margin-bottom: 3px;
+.i148 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 10px;
     width: 50px;
 }
 
-.i149 {  margin-bottom: 3px;
+.i149 {
+    margin-bottom: 3px;
     margin-top: 5px;
     margin-left: 20px;
     width: 130px;
 }
 
-.i150 {  margin-bottom: 3px;
+.i150 {
+    margin-bottom: 3px;
     font-size: 15px;
     width: 100px;
 }
 
-.i151 {  margin-bottom: 3px;
+.i151 {
+    margin-bottom: 3px;
     margin-left: 5px;
     margin-right: 10px;
 }
 
-.i152 {  margin-bottom: 3px;
+.i152 {
+    margin-bottom: 3px;
     font-size: 15px;
     width: 100px;
 }
 
 
-.i153 {  margin-bottom: 3px;
+.i153 {
+    margin-bottom: 3px;
     margin-left: 5px;
     margin-right: 10px;
 }
 
-.i154 {  margin-bottom: 3px;
+.i154 {
+    margin-bottom: 3px;
     font-size: 15px;
     width: 100px;
 }
 
-.i155 {  margin-bottom: 3px;
+.i155 {
+    margin-bottom: 3px;
     margin-left: 5px;
     margin-right: 10px;
 }
 
-.i156 {  margin-bottom: 3px;
+.i156 {
+    margin-bottom: 3px;
     font-size: 15px;
     width: 100px;
 }
 
-.i157 {  margin-bottom: 3px;
+.i157 {
+    margin-bottom: 3px;
     margin-left: 5px;
     margin-right: 10px;
 }
 
-.i158 {  margin-bottom: 3px;
+.i158 {
+    margin-bottom: 3px;
     font-size: 15px;
     width: 100px;
 }
 
-.i159 {  margin-bottom: 3px;
+.i159 {
+    margin-bottom: 3px;
     margin-left: 5px;
     margin-right: 10px;
 }
 
-.i160 {  margin-bottom: 3px;
+.i160 {
+    margin-bottom: 3px;
     font-size: 15px;
     width: 100px;
 }
 
-.i161 {  margin-bottom: 3px;
+.i161 {
+    margin-bottom: 3px;
     margin-left: 5px;
     margin-right: 10px;
 }
 
-.i162 {  margin-bottom: 3px;
+.i162 {
+    margin-bottom: 3px;
     font-size: 15px;
     width: 100px;
 }
 
-.i163 {  margin-bottom: 3px;
+.i163 {
+    margin-bottom: 3px;
     margin-left: 5px;
     margin-right: 10px;
 }
 
-.i164 {  margin-bottom: 3px;
+.i164 {
+    margin-bottom: 3px;
     font-size: 15px;
     width: 100px;
 }
 
-.i165 {  margin-bottom: 3px;
+.i165 {
+    margin-bottom: 3px;
     margin-left: 5px;
     margin-right: 10px;
 }
 
 .i166 {
-      margin-bottom: 3px;
+    margin-bottom: 3px;
     font-size: 15px;
     width: 100px;
 }
 
-.i167 {  margin-bottom: 3px;
+.i167 {
+    margin-bottom: 3px;
     margin-left: 5px;
     margin-right: 10px;
 }
 
-.i168 {  margin-bottom: 3px;
+.i168 {
+    margin-bottom: 3px;
     font-size: 15px;
     width: 100px;
 }
 
-.i169 {  margin-bottom: 3px;
+.i169 {
+    margin-bottom: 3px;
     margin-left: 5px;
     margin-right: 10px;
 
 }
 
-.i170 {  margin-bottom: 3px;
+.i170 {
+    margin-bottom: 3px;
     margin-left: 5px;
     margin-right: 10px;
     width: 1455px;
@@ -1186,74 +1295,74 @@ margin-left: 5px;
 }
 
 .i171 {
-  margin-bottom: 3px;
+    margin-bottom: 3px;
     margin-right: 10px;
     width: 100%;
     background-color: darkgray;
 }
 
 .i172 {
-  margin-bottom: 3px;
+    margin-bottom: 3px;
     margin-left: 10px;
     width: 200px;
 }
 
 .i173 {
-  margin-bottom: 3px;
+    margin-bottom: 3px;
     margin-left: 10px;
     width: 200px;
 }
 
 .i174 {
-  margin-bottom: 3px;
+    margin-bottom: 3px;
     margin-left: 10px;
     width: 200px;
 }
 
 .i175 {
-  margin-bottom: 3px;
+    margin-bottom: 3px;
     margin-left: 10px;
     width: 200px;
 }
 
 .i176 {
-  margin-bottom: 3px;
+    margin-bottom: 3px;
     margin-left: 10px;
     width: 200px;
 }
 
 .i177 {
-  margin-bottom: 3px;
+    margin-bottom: 3px;
     margin-left: 10px;
     width: 200px;
 }
 
 .i178 {
-  margin-bottom: 3px;
+    margin-bottom: 3px;
     margin-left: 10px;
     width: 200px;
 }
 
 .i179 {
-  margin-bottom: 3px;
+    margin-bottom: 3px;
     margin-left: 10px;
     width: 200px;
 }
 
 .i180 {
-  margin-bottom: 3px;
+    margin-bottom: 3px;
     margin-left: 10px;
     width: 622px;
 }
 
 .i181 {
-  margin-bottom: 3px;
+    margin-bottom: 3px;
     margin-left: 10px;
     width: 622px;
 }
 
 .i182 {
-  margin-bottom: 3px;
+    margin-bottom: 3px;
     margin-left: 10px;
     width: 622px;
 }
