@@ -1,3 +1,10 @@
+.container{
+    max-width: 98%;
+
+}
+input{
+    height: 30px;
+}
 form {
     margin-top: 50px;
     margin: auto;
@@ -5,7 +12,9 @@ form {
     border: 2px solid black;
     display: block;
 }
-
+.col-sm-1{
+    width: 200px;
+}
 /*tirulos principais*/
 h1 {
     
@@ -70,7 +79,7 @@ input{
 /*label geral*/
 label {
 
-    width: 125px;
+
     
     border-bottom: none;
     display: block;
@@ -94,6 +103,7 @@ label {
 
 .i1{
     margin-left: 5px;
+    max-width: 400px;
 }
 .i2 {
     margin-left: 5px;
@@ -107,6 +117,7 @@ margin-left: 5px;
 }
 
 .i4 {
+    margin: 0px;
     margin-bottom: 3px;
     margin-left: 5px;
     width: 250px;
@@ -115,7 +126,6 @@ margin-left: 5px;
 .i5 {
     margin-bottom: 3px;
     margin-left: 5px;
-    width: 250px;
 }
 
 .i6 {
@@ -126,97 +136,112 @@ margin-left: 5px;
 .i7 {
     margin-bottom: 3px;
     margin-left: 5px;
-    width: 260px;
+    max-width: 350px;
+    min-width: 200px;
 }
 
 .i8 {
     margin-bottom: 3px;
     margin-left: 5px;
-    width: 160px;
+    max-width: 350px;
+    min-width: 200px;
 }
 
 .i9 {
     margin-bottom: 3px;
     margin-left: 5px;
-    max-width: 1270px;
+    max-width: 700px;
+    min-width: 200px;
 }
 
 .i10 {
     margin-bottom: 3px;
     margin-left: 5px;
-    width: 150px;
+    max-width: 350px;
+    min-width: 200px;
 }
 
 .i11 {
     margin-bottom: 3px;
     margin-left: 5px;
-    width: 1000px;
+    max-width: 1000px;
+    min-width: 200px;
 }
 
 .i12 {
     margin-bottom: 3px;
     margin-left: 5px;
-    width: 250px;
+    max-width: 350px;
+    min-width: 200px;
 }
 
 .i13 {
     margin-bottom: 3px;
     margin-left: 5px;
-    width: 1615px;
+    max-width: 1510px;
+    min-width: 200px;
 }
 
 .i14 {
     margin-bottom: 3px;
     margin-left: 5px;
-    width: 500px;
+    max-width: 500px;
+    min-width: 200px;
 }
 
 .i15 {
+    
     margin-bottom: 3px;
     margin-left: 5px;
-    width: 200px;
+    max-width: 200px;
+    min-width: 200px;
 }
 
 .i16 {
     margin-bottom: 3px;
     margin-left: 5px;
-    width: 250px;
+    max-width: 250px;
+    min-width: 200px;
 }
 
 .i17 {
     margin-bottom: 3px;
     margin-left: 5px;
-    width: 100px;
+    max-width: 70px;
+    min-width: 70px;
 }
 
 .i18 {
     margin-bottom: 3px;
     margin-left: 5px;
-    width: 160px;
+    max-width: 160px;
+    min-width: 100px;
 }
 
 .i19 {
     margin-bottom: 3px;
     margin-left: 5px;
-    width: 634px;
+    max-width: 605px;
+    min-width: 300px;
 }
 
 .i20 {
     margin-bottom: 3px;
     margin-left: 5px;
-    width: 180px;
+    width: 190px;
 }
 
 .i21 {
     margin-bottom: 3px;
     margin-left: 5px;
-    width: 170px;
+    width: 140px;
 }
 
 .i22 {
     margin-bottom: 3px;
     margin-left: 5px;
-    width: 1290px;
+    max-width: 1230px;
+    min-width: 200px;
 }
 
 .i23 {
@@ -226,64 +251,63 @@ margin-left: 5px;
 }
 
 .i24 {
-    margin-bottom: 3;
-    margin-top: 4px;
+    
+    margin-top: 8px;
     margin-left: 5px;
     width: 100px;
 }
 
 
 .i25 {
-    margin-bottom: 3px;
-    margin-top: 4px;
+    
+    margin-top: 8px;
     margin-left: 5px;
-    width: 300px;
+    width: 310px;
 }
 
 .i26 {
-    margin-bottom: 3px;
-    margin-top: 4px;
+    margin-top: 8px;
     margin-left: 5px;
-    width: 1215px;
+    max-width: 800px;
 }
 
 .i27 {
-    margin-bottom: 3px;
-    margin-top: 4px;
+
+    margin-top: 8px;
     margin-left: 5px;
     width: 100px;
 }
 
 .i28 {
-    margin-bottom: 3px;
-    margin-top: 4px;
+
+    margin-top: 8px;
     margin-left: 5px;
     width: 100px;
 }
 
 .i29 {
-    margin-bottom: 3px;
-    margin-top: 14px;
+    
+    margin-top: 8px;
     margin-left: 5px;
     width: 100px;
 }
 
 .i30 {
-    margin-bottom: 3px;
+
     margin-top: 8px;
     margin-left: 5px;
-    width: 300px;
+    width: 310px;
 }
 
 .i31 {
-    margin-bottom: 3px;
+
     margin-top: 8px;
     margin-left: 5px;
-    width: 1215px;
+    max-width: 800px;
 }
 
 .i32 {
-    margin-bottom: 3px;
+
     margin-top: 8px;
     margin-left: 5px;
     width: 100px;
@@ -296,93 +320,97 @@ margin-left: 5px;
 }
 
 .i34 {
-    margin-top: 5px;
+    margin-top: 8px;
     margin-left: 5px;
     width: 100px;
 }
 
 .i35 {
-    margin-bottom: 3px;
+    margin-top: 8px;
     margin-left: 5px;
-    width: 300px;
+    width: 310px;
 }
 
 .i36 {
-    margin-bottom: 3px;
+    margin-top: 8px;
     margin-left: 5px;
-    width: 1215px;
+    max-width: 800px;
 }
 
 .i37 {
-    margin-bottom: 3px;
+    margin-top: 8px;
     margin-left: 5px;
     width: 100px;
 }
 
 .i38 {
-    margin-bottom: 3px;
+    margin-top: 8px;
     margin-left: 5px;
     width: 100px;
 }
 
 .i39 {
-    margin-bottom: 3px;
-    margin-top: 5px;
+
+    margin-top: 8px;
     margin-left: 5px;
     width: 100px;
 }
 
 .i40 {
-    margin-bottom: 3px;
+    margin-top: 8px;
     margin-left: 5px;
-    width: 300px;
+    width: 310px;
 }
 
 .i41 {
-    margin-bottom: 3px;
+    margin-top: 8px;
     margin-left: 5px;
-    width: 1215px;
+    max-width: 800px;
 }
 
 .i42 {
-    margin-bottom: 3px;
+    margin-top: 8px;
     margin-left: 5px;
     width: 100px;
 }
 
 .i43 {
-    margin-bottom: 3px;
+    margin-top: 8px;
     margin-left: 5px;
     width: 100px;
 }
 
 .i44 {
-    margin-bottom: 3px;
-    margin-top: 5px;
+    margin-bottom: 8px;
+    margin-top: 8px;
     margin-left: 5px;
     width: 100px;
 }
 
 .i45 {
-    margin-bottom: 3px;
+    margin-top: 8px;
+    margin-bottom: 8px;
     margin-left: 5px;
-    width: 300px;
+    width: 310px;
 }
 
 .i46 {
-    margin-bottom: 3px;
+    margin-top: 8px;
+    margin-bottom: 8px;
     margin-left: 5px;
-    width: 1215px;
+    max-width: 800px;
 }
 
 .i47 {
-    margin-bottom: 3px;
+    margin-top: 8px;
+    margin-bottom: 8px;
     margin-left: 5px;
     width: 100px;
 }
 
 .i48 {
-    margin-bottom: 3px;
+    margin-bottom: 8px;
+    margin-top: 8px;
     margin-left: 5px;
     width: 100px;
 }
@@ -396,7 +424,7 @@ margin-left: 5px;
 .i50 {
     margin-bottom: 3px;
     margin-left: 5px;
-    width: 1455px;
+    width: 1000px;
 }
 
 .i51 {
@@ -408,13 +436,13 @@ margin-left: 5px;
 .i52 {
     margin-bottom: 3px;
     margin-left: 5px;
-    width: 160px;
+    width: 170px;
 }
 
 .i53 {
     margin-bottom: 3px;
     margin-left: 5px;
-    width: 350px;
+    width: 450px;
 }
 
 .i54 {
