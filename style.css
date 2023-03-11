@@ -12,6 +12,7 @@ form {
     width: 100%;
     border: 2px solid black;
     display: block;
+   
 }
 
 /*titulos principais*/
@@ -129,7 +130,7 @@ label {
 .i6 {
     margin-bottom: 3px;
     margin-left: 5px;
-    width: 350px;
+    max-width: 350px;
 }
 
 .i7 {
@@ -483,7 +484,7 @@ label {
 
 
 .i62 {
-    margin-bottom: 3px;
+    margin-bottom: 40px;
     max-width: 600px;
     margin-left: 5px;
 }
