@@ -52,7 +52,13 @@ p {
     margin-left: 60px;
     margin-bottom: 3px;
 }
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
+    width: 0px;
 
+}
 /*input geral*/
 
 input {
