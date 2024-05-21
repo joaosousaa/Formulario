@@ -18,6 +18,9 @@ form {
 /*titulos principais*/
 
 #titulo {
+    border-radius: 10px;
+    padding: 0.5vh;
+    background-color: #3999a040;
     text-align: center;
     max-width: 50%;
     margin: auto;
@@ -33,7 +36,9 @@ h2 {
 }
 
 h3 {
-    background-color: rgba(169, 169, 169, 0.808);
+    border-radius: 5px;
+    padding: 0.5vh;
+    background-color: #3999A0;
     font-size: 15px;
 }
 
@@ -49,7 +54,6 @@ p {
     font-weight: bold;
     width: 300px;
     font-size: 12px;
-    margin-left: 60px;
     margin-bottom: 3px;
 }
 .grid {
@@ -90,8 +94,10 @@ input {
     margin: auto;
     width: 99.5%;
     margin-bottom: 10px;
-    border: 2px solid #DEE2E6;
-    background-color: darkgray;
+    background-color: #3999A0;
+    border-radius: 10px;
+    padding: 0.5vh;
+    
 }
 
 /*label geral*/
